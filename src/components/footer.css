@@ -1,0 +1,26 @@
+footer {
+    border-top: 1px solid #7E22CE;
+    padding: 1px;
+    text-align: center;
+    color: #7E22CE;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+
+  }
+  
+  .footer-content {
+    display: flex;
+    color: #7E22CE;
+    justify-content: space-between;
+  }
+  
+  .left {
+    margin-right: auto;
+  }
+  
+  .right {
+    margin-left: auto;
+  }

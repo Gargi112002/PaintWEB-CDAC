@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #f2f2f2;
+  }
+  
+  .button-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .circle {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #4CAF50;
+  }
+  
+  .rectangle {
+    width: 50%;
+    height: 25%;
+    margin: 0 auto;
+    background-color: #4CAF50;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-top: 50% solid #4CAF50;
+    border-left: 25% solid transparent;
+    border-right: 25% solid transparent;
+  }
+  
